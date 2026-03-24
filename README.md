@@ -31,7 +31,7 @@ Vi relies on a lightweight dispatcher model. By utilizing smaller, task-specific
    ```bash
    git clone [https://github.com/yourusername/vi-assistant.git](https://github.com/yourusername/vi-assistant.git)
    cd vi-assistant
-````
+   ````
 
 2.  Install the required system dependencies (for PyAudio):
 
@@ -49,9 +49,9 @@ Vi relies on a lightweight dispatcher model. By utilizing smaller, task-specific
 
 Run the main Python script to bring Vi online:
 
-```bash
-python main.py
-```
+   ```bash
+   python main.py
+   ```
 
 Wait for the "Vi System Online" prompt. Speak the name "Vi", followed by your command.
 
@@ -68,6 +68,3 @@ Wait for the "Vi System Online" prompt. Speak the name "Vi", followed by your co
   * Add a Text-to-Speech (TTS) engine so Vi can vocalize her responses.
 
 
-
-Would you like me to draft a more advanced version of the `route_to_expert` function that uses a Zero-Shot Classification model instead of `if/else` keyword statements to add to your codebase?
-```
